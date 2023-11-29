@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption and Animal Welfare</title>
+    <link href="style.css" rel="stylesheet" type="text/css" >
+</head>
+<body class="index">
+    <header>
+        <h1>ANYDOPT WELFARE</h1>
+    </header>
+
+    <br>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="index.html">Adopt Pets</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    
+    <br>
+
+    <script>
+        function adopt(petName) {
+            alert('You have adopted ' + petName + '!');
+        }
+    </script>
+
+    
+
+    <section>
+        <div class="pet-card">
+            <img src="Labrador.jpg" alt="Dog 1">
+            <h2>Alex</h2>
+            <p>Breed: Labrador</p>
+            <p>Age: 2 years</p>
+            <p>Gender: Male</p>
+            <button onclick="adopt('Alex')">Adopt Me</button>
+        </div>
+    
+        <div class="pet-card">
+            <img src="pomeranian.jpg" alt="Dog 2">
+            <h2>Steve</h2>
+            <p>Breed: Pomerian</p>
+            <p>Age: 4 years</p>
+            <p>Gender: Male</p>
+            <button onclick="adopt('Apollo')">Adopt Me</button>
+        </div>
+
+        <div class="pet-card">
+            <img src="Saiamese.webp" alt="Cat 1">
+            <h2>Snow</h2>
+            <p>Breed: Siamese</p>
+            <p>Age: 4 years</p>
+            <p>Gender: Female</p>
+            <button onclick="adopt('Jhansi')">Adopt Me</button>
+        </div>
+        
+        <div class="pet-card">
+            <img src="Persian.jpg" alt="Cat 2">
+            <h2>Ash</h2>
+            <p>Breed: Persian</p>
+            <p>Age: 3 years</p>
+            <p>Gender: Male</p>
+            <button onclick="adopt('Ash')">Adopt Me</button>
+        </div>
+
+        <div class="pet-card">
+            <img src="Bruno.avif" alt="Dog" class="pet-image">
+            <h2>Bruno</h2>
+            <p>Age: 3 years</p>
+            <p>Breed: Golden Retriever</p>
+            <p>Gender: Male</p>
+            <button>Adopt Me</button>
+        </div>
+    </section>
+
+</body>
+</html>
